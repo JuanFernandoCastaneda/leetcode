@@ -55,15 +55,20 @@ class Solution {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println("hUH?");
-        System.out.println(List.of(1, 32, 3).stream().filter(number -> number > 5).collect(Collectors.toList()));
-        Solution sol = new Solution();
-        double test1 = sol.findMedianSortedArrays(new int[] { 1, 3 }, new int[] { 2 });
-        System.out.println(test1);
-        System.out.println(Math.abs(test1 - 2.0) < 0.001);
-        double test2 = sol.findMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 });
-        System.out.println(test2);
-        System.out.println(Math.abs(test2 - 2.5) < 0.001);
-    }
+    /*
+     * public static void main(String[] args) {
+     * System.out.println("hUH?");
+     * System.out.println(List.of(1, 32, 3).stream().filter(number -> number >
+     * 5).collect(Collectors.toList()));
+     * Solution sol = new Solution();
+     * double test1 = sol.findMedianSortedArrays(new int[] { 1, 3 }, new int[] { 2
+     * });
+     * System.out.println(test1);
+     * System.out.println(Math.abs(test1 - 2.0) < 0.001);
+     * double test2 = sol.findMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3,
+     * 4 });
+     * System.out.println(test2);
+     * System.out.println(Math.abs(test2 - 2.5) < 0.001);
+     * }
+     */
 }
